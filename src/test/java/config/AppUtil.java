@@ -10,25 +10,28 @@ import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AppUtil {
+public class AppUtil 
+{
 	public static WebDriver driver;
-    //public static WebDriverWait wait;
-    
-    @BeforeTest
-    public void setup() {
-        Reporter.log("=====Browser Session Started=====", true);
-        WebDriverManager.chromedriver().setup();
-        driver=new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("https://shop.spacex.com/");
-    }
+	//public static WebDriverWait wait;
 
-    @AfterTest
-    public void close() {
-        driver.quit();
-        Reporter.log("=====Browser Session End=====", true);
+	@BeforeTest
+	public void setup() 
+	{
+		Reporter.log("=====Browser Session Started=====", true);
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("https://shop.spacex.com/");
+	}
 
-    }
+	@AfterTest
+	public void close()
+	{
+		driver.quit();
+		Reporter.log("=====Browser Session End=====", true);
+
+	}
 
 }

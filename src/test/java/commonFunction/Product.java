@@ -16,15 +16,18 @@ public class Product  {
 	public static By quantity=By.name("quantity");
 	public static By cartQuantity=By.xpath("//span[@data-action='increase-quantity']");
 
-	public void verifyProductDetails(float price,String details) {
+	public void verifyProductDetails(float price,String details) 
+	{
 
 		//Assert.assertEquals(driver.findElement(itemPrice).getText().replace("$", ""),price);
 		Assert.assertEquals(driver.findElement(itemDescription).getText(),details);
 	}
 
-	public void addQuantity(int i) {
+	public void addQuantity(int i)
+	{
 
-		for (int j=1;j<=i;j++) {
+		for (int j=1;j<=i;j++)
+		{
 
 			driver.findElement(cartQuantity).click();	
 		}
