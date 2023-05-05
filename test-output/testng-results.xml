@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[No. of Total product in this page::: 8]]>
+    </line>
+    <line>
+      <![CDATA[MEN'S SPACEX T-SHIRT               
+$30.00]]>
+    </line>
+    <line>
+      <![CDATA[MEN'S SPACEX POLO               
+$40.00]]>
+    </line>
+    <line>
+      <![CDATA[SPACEX F9 MODEL               
+$150.00]]>
+    </line>
+    <line>
+      <![CDATA[SPACEX WATER BOTTLE               
+$35.00]]>
+    </line>
+    <line>
+      <![CDATA[SPACEX CAP               
+$25.00]]>
+    </line>
+    <line>
+      <![CDATA[UNISEX SPACEX ZIPPER HOODIE               
+$50.00]]>
+    </line>
+    <line>
+      <![CDATA[UNISEX SPACEX PULLOVER HOODIE               
+$50.00]]>
+    </line>
+    <line>
+      <![CDATA[KID'S SPACEX SPACESUIT ONESIE               
+$45.00]]>
+    </line>
+    <line>
+      <![CDATA[SPACEX JOURNAL               
+$30.00]]>
+    </line>
+    <line>
+      <![CDATA[SPACEX ONESIE               
+$15.00]]>
+    </line>
+    <line>
+      <![CDATA[UNISEX SPACEX SWEATSHIRT               
+$45.00]]>
+    </line>
+    <line>
+      <![CDATA[SPACEX STARSHIP STACK METAL ART PRINT               
+$499.00]]>
+    </line>
+    <line>
+      <![CDATA[KID'S SPACEX T-SHIRT               
+$20.00]]>
+    </line>
+    <line>
+      <![CDATA[KID'S SPACEX ZIPPER HOODIE               
+$28.00]]>
+    </line>
+    <line>
+      <![CDATA[KID'S SPACEX PULLOVER HOODIE               
+$28.00]]>
+    </line>
+    <line>
+      <![CDATA[WOMEN'S SPACEX POLO               
+$40.00]]>
+    </line>
+    <line>
+      <![CDATA[STARSHIP TORCH PRE-SALE               
+$175.00]]>
+    </line>
+    <line>
+      <![CDATA[MEN'S STARSHIP TEST FLIGHT T-SHIRT               
+$30.00]]>
+    </line>
+    <line>
+      <![CDATA[UNISEX STARSHIP HEATSHIELD PULLOVER HOODIE               
+$65.00]]>
+    </line>
+    <line>
+      <![CDATA[UNISEX RAPTOR SCHEMATIC T-SHIRT               
+$30.00]]>
+    </line>
+    <line>
+      <![CDATA[REMOVE BEFORE FLIGHT KEY CHAINS               
+$15.00]]>
+    </line>
+    <line>
+      <![CDATA[STARSHIP ADJUSTABLE CAP               
+$25.00]]>
+    </line>
+    <line>
+      <![CDATA[STARSHIP STACK POSTER               
+$20.00]]>
+    </line>
+    <line>
+      <![CDATA[X ADJUSTABLE CAP               
+$25.00]]>
+    </line>
+    <line>
+      <![CDATA[OCCUPY MARS "HEAT SENSITIVE" TERRAFORMING MUG               
+$20.00]]>
+    </line>
+    <line>
+      <![CDATA[STARLINK STICKER PACK               
+$15.00]]>
+    </line>
+    <line>
+      <![CDATA[REMOVE BEFORE FLIGHT KEY CHAINS               
+$15.00]]>
+    </line>
+    <line>
+      <![CDATA[STARLINK ADJUSTABLE CAP               
+$25.00]]>
+    </line>
+    <line>
+      <![CDATA[Product verified:: MEN'S SPACEX POLO
+MEN'S SPACEX POLO]]>
+    </line>
+    <line>
+      <![CDATA[Items Added in to Card verified:::  Actual price = $160.00,  4 X Single item price   = $160.00]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-03T00:21:00 IST" name="Default suite" finished-at="2023-05-03T00:21:29 IST" duration-ms="28949">
+    <groups>
+    </groups>
+    <test started-at="2023-05-03T00:21:00 IST" name="Default test" finished-at="2023-05-03T00:21:29 IST" duration-ms="28949">
+      <class name="driverFactory.TestDrive">
+        <test-method is-config="true" signature="setup()[pri:0, instance:driverFactory.TestDrive@536f2a7e]" started-at="2023-05-03T00:21:00 IST" name="setup" finished-at="2023-05-03T00:21:13 IST" duration-ms="12546" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProductVerification()[pri:0, instance:driverFactory.TestDrive@536f2a7e]" started-at="2023-05-03T00:21:13 IST" name="ProductVerification" description="Test Get API and Validate Content" finished-at="2023-05-03T00:21:26 IST" duration-ms="12638" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No. of Total product in this page::: 8]]>
+            </line>
+            <line>
+              <![CDATA[MEN'S SPACEX T-SHIRT               
+$30.00]]>
+            </line>
+            <line>
+              <![CDATA[MEN'S SPACEX POLO               
+$40.00]]>
+            </line>
+            <line>
+              <![CDATA[SPACEX F9 MODEL               
+$150.00]]>
+            </line>
+            <line>
+              <![CDATA[SPACEX WATER BOTTLE               
+$35.00]]>
+            </line>
+            <line>
+              <![CDATA[SPACEX CAP               
+$25.00]]>
+            </line>
+            <line>
+              <![CDATA[UNISEX SPACEX ZIPPER HOODIE               
+$50.00]]>
+            </line>
+            <line>
+              <![CDATA[UNISEX SPACEX PULLOVER HOODIE               
+$50.00]]>
+            </line>
+            <line>
+              <![CDATA[KID'S SPACEX SPACESUIT ONESIE               
+$45.00]]>
+            </line>
+            <line>
+              <![CDATA[SPACEX JOURNAL               
+$30.00]]>
+            </line>
+            <line>
+              <![CDATA[SPACEX ONESIE               
+$15.00]]>
+            </line>
+            <line>
+              <![CDATA[UNISEX SPACEX SWEATSHIRT               
+$45.00]]>
+            </line>
+            <line>
+              <![CDATA[SPACEX STARSHIP STACK METAL ART PRINT               
+$499.00]]>
+            </line>
+            <line>
+              <![CDATA[KID'S SPACEX T-SHIRT               
+$20.00]]>
+            </line>
+            <line>
+              <![CDATA[KID'S SPACEX ZIPPER HOODIE               
+$28.00]]>
+            </line>
+            <line>
+              <![CDATA[KID'S SPACEX PULLOVER HOODIE               
+$28.00]]>
+            </line>
+            <line>
+              <![CDATA[WOMEN'S SPACEX POLO               
+$40.00]]>
+            </line>
+            <line>
+              <![CDATA[STARSHIP TORCH PRE-SALE               
+$175.00]]>
+            </line>
+            <line>
+              <![CDATA[MEN'S STARSHIP TEST FLIGHT T-SHIRT               
+$30.00]]>
+            </line>
+            <line>
+              <![CDATA[UNISEX STARSHIP HEATSHIELD PULLOVER HOODIE               
+$65.00]]>
+            </line>
+            <line>
+              <![CDATA[UNISEX RAPTOR SCHEMATIC T-SHIRT               
+$30.00]]>
+            </line>
+            <line>
+              <![CDATA[REMOVE BEFORE FLIGHT KEY CHAINS               
+$15.00]]>
+            </line>
+            <line>
+              <![CDATA[STARSHIP ADJUSTABLE CAP               
+$25.00]]>
+            </line>
+            <line>
+              <![CDATA[STARSHIP STACK POSTER               
+$20.00]]>
+            </line>
+            <line>
+              <![CDATA[X ADJUSTABLE CAP               
+$25.00]]>
+            </line>
+            <line>
+              <![CDATA[OCCUPY MARS "HEAT SENSITIVE" TERRAFORMING MUG               
+$20.00]]>
+            </line>
+            <line>
+              <![CDATA[STARLINK STICKER PACK               
+$15.00]]>
+            </line>
+            <line>
+              <![CDATA[REMOVE BEFORE FLIGHT KEY CHAINS               
+$15.00]]>
+            </line>
+            <line>
+              <![CDATA[STARLINK ADJUSTABLE CAP               
+$25.00]]>
+            </line>
+            <line>
+              <![CDATA[Product verified:: MEN'S SPACEX POLO
+MEN'S SPACEX POLO]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductVerification -->
+        <test-method signature="addQuantity()[pri:1, instance:driverFactory.TestDrive@536f2a7e]" started-at="2023-05-03T00:21:26 IST" name="addQuantity" description="Shop SpaceX-Search, Add to Cart" finished-at="2023-05-03T00:21:29 IST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addQuantity -->
+        <test-method signature="cartVerification()[pri:2, instance:driverFactory.TestDrive@536f2a7e]" started-at="2023-05-03T00:21:29 IST" name="cartVerification" description="Test Get API and Validate Cart Price" finished-at="2023-05-03T00:21:29 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Items Added in to Card verified:::  Actual price = $160.00,  4 X Single item price   = $160.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartVerification -->
+        <test-method is-config="true" signature="close()[pri:0, instance:driverFactory.TestDrive@536f2a7e]" started-at="2023-05-03T00:21:29 IST" name="close" finished-at="2023-05-03T00:21:29 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- driverFactory.TestDrive -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

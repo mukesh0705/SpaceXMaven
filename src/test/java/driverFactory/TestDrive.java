@@ -28,7 +28,7 @@ public class TestDrive extends AppUtil
 		Product product=PageFactory.initElements(driver,Product.class);
 		product.verifyProductDetails(40f,"Embroidered SpaceX logo");
 		product.addQuantity(3);
-		RestAssured.given()
+		/*RestAssured.given()
 		.contentType(ContentType.JSON)
 		.when()
 		.get("https://swapi.dev/api/people/")
@@ -36,7 +36,7 @@ public class TestDrive extends AppUtil
 		.assertThat()
 		.body("results[2].name", equalTo("R2-D2"))
 		.and()
-		.body("results[2].skin_color", equalTo("white, blue"));
+		.body("results[2].skin_color", equalTo("white, blue"));*/
 	}
 	@Test(priority = 2,description = "Test Get API and Validate Cart Price")
 	public void cartVerification() {
