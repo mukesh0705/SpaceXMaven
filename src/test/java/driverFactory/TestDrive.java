@@ -2,13 +2,11 @@ package driverFactory;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import static org.hamcrest.Matchers.equalTo;
+
 import commonFunction.CartPage;
 import commonFunction.Product;
 import commonFunction.SearchPage;
 import config.AppUtil;
-import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 
 public class TestDrive extends AppUtil 
 {
