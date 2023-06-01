@@ -15,7 +15,7 @@ public class CartPage
 		this.driver=driver;
 
 	}
-public By totalPrice=By.xpath("//span[normalize-space()='$160.00']");
+public By totalPrice=By.xpath("//span[normalize-space()='$140.00']");
     
     public void verifyPrice(int q, double price)
     {

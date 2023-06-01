@@ -24,7 +24,7 @@ public class TestDrive extends AppUtil
 	{
 
 		Product product=PageFactory.initElements(driver,Product.class);
-		product.verifyProductDetails(40f,"Embroidered SpaceX logo");
+		product.verifyProductDetails(35f,"SPACEX WATER BOTTLE");
 		product.addQuantity(3);
 		/*RestAssured.given()
 		.contentType(ContentType.JSON)
@@ -39,7 +39,7 @@ public class TestDrive extends AppUtil
 	@Test(priority = 2,description = "Test Get API and Validate Cart Price")
 	public void cartVerification() {
 		CartPage cart=PageFactory.initElements(driver, CartPage.class);
-		cart.verifyPrice(4,40);
+		cart.verifyPrice(4,35);
 	}
 }
 

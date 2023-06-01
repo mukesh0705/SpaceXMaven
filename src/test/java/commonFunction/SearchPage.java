@@ -26,7 +26,7 @@ public class SearchPage {
 	List<WebElement> AllProductPrice;
 	@FindBy(xpath = "(//span[@class='ProductItem__Title Heading'])[2]")
 	WebElement clickOnProduct;
-	@FindBy(xpath = "(//h1[normalize-space()=\"Men's SpaceX Polo\"])[1]")
+	@FindBy(xpath = "(//h1[normalize-space()='SpaceX Water Bottle'])[1]")
 	WebElement ProductTitle;
 
 	//String Expected=this.clickOnProduct.getText();
