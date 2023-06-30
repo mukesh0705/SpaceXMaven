@@ -21,7 +21,7 @@ public By totalPrice=By.xpath("//span[normalize-space()='$140.00']");
     {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String total = driver.findElement(this.totalPrice).getText();
-        Reporter.log("Items Added in to Card verified:::  Actual price = "+total+",  4 X Single item price   = $"+(q*price)+"0",true);
+        Reporter.log("Items Added in to Card verified:::  Single item price = "+price+"\n\tExpected total Price = "+total+", Actual total price = 4 X Single item price   = $"+(q*price)+"0",true);
         Assert.assertEquals(total,"$"+(q*price)+"0");
     }
 
